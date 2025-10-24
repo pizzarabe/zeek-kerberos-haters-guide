@@ -255,6 +255,8 @@ A great discussion on this topic can be found at [https://github.com/zeek/zeek/i
 
 Additional discussion on this topic can be found in a session presented at DebConf'17 at [https://lwn.net/Articles/732794/](https://lwn.net/Articles/732794/)
 
+In Windows Server 2025 Microsoft changed the expiration date to the year 2100 for accounts with no password expiry. This means that you may also encounter till timestamps such as '2100-09-13T02:48:05.000000Z' for the same reason.
+
 # Kerberos Event Types
 This table is provided for reference and similar tables can be found in the links below. This table was included to allow commenting in how these events relate to Zeek monitoring. Briefly, the following fields are:
 
